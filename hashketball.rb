@@ -134,7 +134,7 @@ sorted_array = hash4.sort_by {|x,y| y[:shoe]}
 x = sorted_array[-1]
 winner = x[0]
 
-
+# using previous methods from previous questions on this part
 rebounds = ''
   game_hash.each do |location,team|
     team.each do |attributes, data|
